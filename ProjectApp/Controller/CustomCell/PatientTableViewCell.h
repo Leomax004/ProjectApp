@@ -1,13 +1,13 @@
-//
-//  PatientTableViewCell.h
-//  ProjectApp
-//
-//  Created by Ceino on 21/04/16.
-//  Copyright © 2016 CEINO TECHNOLOGY. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
 
 @interface PatientTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *patientImage;
+@property (weak, nonatomic) IBOutlet UILabel *patientName;
+@property (weak, nonatomic) IBOutlet UILabel *patientAge;
+@property (weak, nonatomic) IBOutlet UILabel *patientId;
+@property (weak, nonatomic) IBOutlet UILabel *dateOfAppointment;
+@property (weak, nonatomic) IBOutlet UILabel *time;
 
 @end

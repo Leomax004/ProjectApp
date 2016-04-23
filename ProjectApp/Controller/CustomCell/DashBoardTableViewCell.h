@@ -1,13 +1,14 @@
-//
-//  DashBoardTableViewCell.h
-//  ProjectApp
-//
-//  Created by Ceino on 22/04/16.
-//  Copyright © 2016 CEINO TECHNOLOGY. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
 
 @interface DashBoardTableViewCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UILabel *patientName;
+
+@property (weak, nonatomic) IBOutlet UILabel *dateofAppointment;
+
+@property (weak, nonatomic) IBOutlet UILabel *patientId;
+
 
 @end

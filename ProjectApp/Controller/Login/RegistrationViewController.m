@@ -1,15 +1,9 @@
-//
-//  RegistrationViewController.m
-//  Tab_bar_using_xib
-//
-//  Created by Ceino on 13/02/16.
-//  Copyright © 2016 CEINO TECHNOLOGY. All rights reserved.
-//
+
 
 #import "RegistrationViewController.h"
 #import "AFNetworking.h"
 #import "LoginViewController.h"
-#import "Constants.h"
+#import "Constant.h"
 
 
 

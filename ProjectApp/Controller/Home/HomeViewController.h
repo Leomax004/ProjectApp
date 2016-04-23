@@ -1,13 +1,18 @@
-//
-//  HomeViewController.h
-//  ProjectApp
-//
-//  Created by Ceino on 21/04/16.
-//  Copyright © 2016 CEINO TECHNOLOGY. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
+#import "Information.h"
+
 
 @interface HomeViewController : UIViewController
+
+
+@property (weak, nonatomic) IBOutlet UITableView *PatientTable;
+@property (nonatomic,retain)NSMutableArray *filteredPatient;
+
+
+#pragma mark - json
+-(void)jsonRead:(void (^)(NSArray *array, NSError *error))callback;
+
 
 @end
